@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.ilnur.calculator</id>
+    <name>Calculator Popup</name>
+    <vendor>Ilnur</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action
+                id="CalculatorPopupAction"
+                class="com.ilnur.calculator.CalculatorAction"
+                text="Open Calculator Popup">
+
+            <keyboard-shortcut
+                    keymap="$default"
+                    first-keystroke="ctrl shift E"/>
+        </action>
+    </actions>
+</idea-plugin>
